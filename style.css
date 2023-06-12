@@ -57,7 +57,7 @@ nav ul {
     width: 100%;
     height: 10%;
     text-transform: uppercase;
-    text-decoration: underline;
+    text-decoration: #dc3545 underline;
     font-weight: bolder;
      background-image: linear-gradient(to right, red, yellow, red );
 }
@@ -80,7 +80,6 @@ nav ul {
     flex-direction: column;
     font-weight: bold;
     gap: 10px;
-
 }
 
 
@@ -92,28 +91,31 @@ nav ul {
     grid-template-rows: repeat(5, auto);
     gap: 10px;
 }
+
 .Grid__Item{
     text-align: center;
     color: white;
     font-weight: bold;
     text-align: left;
 }
+
 .Item-1{
     grid-column: 1/5;
     background-color: #dc3545;
     text-align: center;
 }
+
 .Item-2{
     background-color: #28a745;
     grid-column: 1/2;
     text-align: center;
-    height: 75px;
-    
+    height: 75px;   
 }
+
 .Item-2 p{
     margin: 0px auto;
     font-size: 30px;
-    width: 70%;
+    width: 55%;
 }
 
 .Item-3{
@@ -121,18 +123,20 @@ nav ul {
     grid-column: 2/3;
     height: 75px;
 }
+
 .Item-3 p{
     font-size: 25px;
-    width: 80%;
+    width: 75%;
 }
 
 .Item-4{
-    background-color: #17a2b8;
+    background-color: rgb(14, 14, 192);
     grid-column: 3/4;
     height: 75px;
 }
+
 .Item-4 p{
-    width: 65%;
+    width: 50%;
     font-size: 20px;
 }
 
@@ -142,6 +146,7 @@ nav ul {
     grid-row: 2/6;
     width: 70px;
 }
+
 .Item-5 p{
     font-weight: 500;
     border-bottom: 2px solid white;
@@ -151,8 +156,9 @@ nav ul {
     grid-column: 1/4;
     grid-row: 3/6;
 }
+
 .Item-6 p{
-    font-size: 22px;
+    font-size: 24px;
 }
 .Item-7{
     grid-column: 1/5;
